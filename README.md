@@ -1,8 +1,5 @@
 # IndicBERTv2 Fine-Tuning for Odia Natural Language Inference (IndicXNLI)
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/)
 [![Dataset](https://img.shields.io/badge/Dataset-IndicXNLI%20(Odia)-blue)](https://huggingface.co/datasets/Divyanshu/indicxnli)
 [![Model](https://img.shields.io/badge/Base%20Model-IndicBERTv2--MLM--only-green)](https://huggingface.co/ai4bharat/IndicBERTv2-MLM-only)
 

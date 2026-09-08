@@ -121,10 +121,6 @@ $$\text{Macro } F_1 = \frac{1}{N} \sum_{i=1}^{N} F_{1, i}$$
 
 - **Dataset**: [IndicXNLI Dataset](https://huggingface.co/datasets/Divyanshu/indicxnli)
 - **Base Model**: [AI4Bharat IndicBERTv2](https://huggingface.co/ai4bharat/IndicBERTv2-MLM-only)
-- **Hugging Face**: [Transformers](https://github.com/huggingface/transformers) & [Datasets](https://github.com/huggingface/datasets)
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).

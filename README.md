@@ -5,7 +5,6 @@
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/)
 [![Dataset](https://img.shields.io/badge/Dataset-IndicXNLI%20(Odia)-blue)](https://huggingface.co/datasets/Divyanshu/indicxnli)
 [![Model](https://img.shields.io/badge/Base%20Model-IndicBERTv2--MLM--only-green)](https://huggingface.co/ai4bharat/IndicBERTv2-MLM-only)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An end-to-end Natural Language Processing pipeline to fine-tune **IndicBERTv2** for **Natural Language Inference (NLI)** in **Odia (`or`)**, leveraging the **IndicXNLI** benchmark dataset.
 

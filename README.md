@@ -11,7 +11,7 @@ An end-to-end Natural Language Processing pipeline to fine-tune **IndicBERTv2** 
 
 ---
 
-## 📌 Overview
+## Overview
 
 Natural Language Inference (NLI) is the task of determining whether a given hypothesis is **entailed**, **contradicted**, or **neutral** with respect to a premise. While NLP resources for low-resource Indic languages like Odia are historically limited, this repository implements a fine-tuning pipeline utilizing state-of-the-art Indic language representation models from [AI4Bharat](https://ai4bharat.iitm.ac.in/).
 
@@ -24,7 +24,7 @@ Natural Language Inference (NLI) is the task of determining whether a given hypo
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - **IndicBERTv2 Backbone**: Fine-tunes `ai4bharat/IndicBERTv2-MLM-only` with sequence classification head.
 - **Dataset Streaming & Tokenization**: Batched preprocessing and dynamic padding with maximum sequence length of 256.
@@ -34,7 +34,7 @@ Natural Language Inference (NLI) is the task of determining whether a given hypo
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 nlp-project/
@@ -48,7 +48,7 @@ nlp-project/
 
 ---
 
-## ⚙️ Hyperparameters & Training Setup
+## Hyperparameters & Training Setup
 
 | Parameter | Value |
 | :--- | :--- |
@@ -68,7 +68,7 @@ nlp-project/
 
 ---
 
-## 📦 Installation & Prerequisites
+## Installation & Prerequisites
 
 ### 1. Clone the Repository
 ```bash
@@ -89,7 +89,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🏃 Usage
+## Usage
 
 Run the training and evaluation pipeline with:
 
@@ -107,7 +107,7 @@ python nlp.py
 
 ---
 
-## 📊 Evaluation & Metrics
+## Evaluation & Metrics
 
 The model is evaluated using standard classification metrics:
 
@@ -117,7 +117,7 @@ $$\text{Macro } F_1 = \frac{1}{N} \sum_{i=1}^{N} F_{1, i}$$
 
 ---
 
-## 📚 Acknowledgments & References
+## References
 
 - **Dataset**: [IndicXNLI Dataset](https://huggingface.co/datasets/Divyanshu/indicxnli)
 - **Base Model**: [AI4Bharat IndicBERTv2](https://huggingface.co/ai4bharat/IndicBERTv2-MLM-only)
